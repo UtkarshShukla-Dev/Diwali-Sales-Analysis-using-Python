@@ -11,25 +11,30 @@ Pandas: Essential for data manipulation and analysis, providing data structures 
 Matplotlib: Used for creating static, animated, and interactive visualizations.
 
 Seaborn: Built on top of Matplotlib, Seaborn provides a high-level interface for drawing attractive statistical graphics.
-Loading Data:
 
+
+# Loading Data:
 The dataset is read using pd.read_csv() from a CSV file, with encoding='unicode_escape' to handle special Unicode characters.
-Initial Data Inspection:
 
+
+# Initial Data Inspection:
 Shape: The dataset contains 11251 rows and 15 columns.
 
 Columns: Key columns include User_ID, Cust_name, Product_ID, Gender, Age Group, Age, Marital_Status, State, Zone, Occupation, Product_Category, Orders, Amount, Status, and unnamed1.
 
 Missing Values: The Status and unnamed1 columns have all null values and are dropped from the DataFrame.
 
-Data Cleaning:
 
+# Data Cleaning:
 Dropping unnecessary columns (Status and unnamed1).
 Checking for and handling null values.
 Converting data types where necessary (e.g., converting Amount to integer).
-Descriptive Statistics:
+# Descriptive Statistics:
+![Screenshot (29)](https://github.com/UtkarshShukla-Dev/Diwali-Sales-Analysis-using-Python/assets/136150238/0881f0c1-09c0-4a43-93af-3289f81f8244)
 
 Using df.describe() to get an overview of the dataset's numerical columns, including count, mean, standard deviation, min, max, and percentiles.
+
+
 # Exploratory Data Analysis (EDA):
 
 # Gender Analysis:
@@ -58,12 +63,15 @@ Noting that married women are the predominant buyers with high purchasing power.
 Creating visualizations to understand the distribution of buyers across various occupations.
 
 # Conclusions:
+![Screenshot (28)](https://github.com/UtkarshShukla-Dev/Diwali-Sales-Analysis-using-Python/assets/136150238/e010997b-82ff-43c5-9c1e-0c35f94e5cd5)
 
 The majority of buyers during Diwali are females, particularly in the 26-35 age group.
 States like Uttar Pradesh, Maharashtra, and Karnataka are significant contributors to sales.
 Married women have a notable purchasing power, making up a large portion of the buyers.
 The dataset provides valuable insights into customer demographics and their buying behavior during the Diwali season, which can be leveraged for targeted marketing and sales strategies.
 By analyzing these patterns, businesses can better understand their customers and optimize their marketing efforts to increase sales during festive seasons like Diwali.
+
+
 
 
 
