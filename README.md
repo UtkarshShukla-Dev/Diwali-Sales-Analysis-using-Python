@@ -4,9 +4,12 @@ The Diwali Sales Analysis project aims to analyze and gain insights from a datas
 # Importing Libraries:
 ![Screenshot (21)](https://github.com/UtkarshShukla-Dev/Diwali-Sales-Analysis-using-Python/assets/136150238/6583c983-0603-4121-abbc-6795e6d9e601)
 
-NumPy: Used for numerical operations and handling arrays.
+ NumPy: Used for numerical operations and handling arrays.
+ 
 Pandas: Essential for data manipulation and analysis, providing data structures like DataFrames.
+
 Matplotlib: Used for creating static, animated, and interactive visualizations.
+
 Seaborn: Built on top of Matplotlib, Seaborn provides a high-level interface for drawing attractive statistical graphics.
 Loading Data:
 
@@ -14,8 +17,11 @@ The dataset is read using pd.read_csv() from a CSV file, with encoding='unicode_
 Initial Data Inspection:
 
 Shape: The dataset contains 11251 rows and 15 columns.
+
 Columns: Key columns include User_ID, Cust_name, Product_ID, Gender, Age Group, Age, Marital_Status, State, Zone, Occupation, Product_Category, Orders, Amount, Status, and unnamed1.
+
 Missing Values: The Status and unnamed1 columns have all null values and are dropped from the DataFrame.
+
 Data Cleaning:
 
 Dropping unnecessary columns (Status and unnamed1).
